@@ -1,1 +1,6 @@
-public fun main(args: kotlin.Array<kotlin.String>): kotlin.Unit
+import kotlin.random.Random
+
+fun main()
+{
+    val random = Random
+}
