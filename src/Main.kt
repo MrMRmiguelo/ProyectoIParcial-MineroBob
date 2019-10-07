@@ -1,4 +1,1 @@
-fun main(args: Array<String>)
-{
-    print("Hello World")
-}
+public fun main(args: kotlin.Array<kotlin.String>): kotlin.Unit
