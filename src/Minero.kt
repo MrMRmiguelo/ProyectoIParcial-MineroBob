@@ -9,4 +9,6 @@ open class Minero (var sed : Int, var fatiga : Int, var Gold:Int) {
         println("\nOro: $Gold\nSed: $sed\nFatiga: $fatiga"
         )
     }
+
+
 }

@@ -1,5 +1,6 @@
 
  open class MinaDeOro {
+  var total = 0
   val bank = Banco()
   val taver = Taberna()
   val home = Hogar()
@@ -24,7 +25,7 @@
    else
    {
     // ya no tiene espacio, depositara en el banco
-     val total : Int
+
     total = bank.OroBanco(GoldPocket)
     return GoldPocket - GoldPocket
    }
